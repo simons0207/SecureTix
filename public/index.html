@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>SecureTix</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div id="app">
+      <header>
+        <div class="logo-container">
+          <img src="/public/SecureTix.png" alt="Logo" class="logo" />
+        </div>
+      <header>
+      </header>
+      </header>
+
+      <main>
+        <section id="dashboard">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <h1 className="page-title">Dashboard</h1>
+                <div className="card">
+                  <div className="card-body">
+                    <h2 className="card-title">Event Manager Dashboard</h2>
+                    {/* Your existing dashboard content */}
+                  </div>
+                </div>
+
+                <div className="mt-4">
+                  <button id="createEventButton" onClick={openDialogueBox}>Create Event</button>
+                </div>
+
+                <div id="eventList"></div>
+
+                <div className="mt-4">
+                  <button id="filterButton" onClick={toggleFilter}>Toggle Filter</button>
+                </div>
+
+                <div id="filters" style={{ display: 'none' }}>
+                  <input type="text" id="searchInput" placeholder="Search events..." />
+                  <select id="sortSelect">
+                    <option value="default">Default Sort</option>
+                    <option value="alphabetical">Alphabetical Order</option>
+                    <option value="priceHighLow">Price High to Low</option>
+                    <option value="priceLowHigh">Price Low to High</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Your existing footer content */}
+      </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0/web3.min.js"></script>
+    <script src="events.js"></script>
+    <script src="dashboard.js"></script>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const logo = document.querySelector('.logo');
+      
+      function scaleUpLogo() {
+        logo.style.transform = 'scale(1)';
+        logo.style.opacity = '1';
+      }
+
+      function scaleDownLogo() {
+        logo.style.transform = 'scale(0.8)';
+        logo.style.opacity = '0';
+      }
+
+      setTimeout(scaleUpLogo, 100); // Scale up and fade in
+      setTimeout(scaleDownLogo, 3000); // Scale down and fade out after 3 seconds
+    });
+  </script>
+</body>
+</html>

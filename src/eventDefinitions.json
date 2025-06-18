@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "name": "AllEvents",
+      "function": "getAllEvents",
+      "parameters": []
+    },
+    {
+      "name": "FilteredEvents",
+      "function": "getFilteredEvents",
+      "parameters": ["filter"]
+    },
+    {
+      "name": "SortAlphabetically",
+      "function": "sortAlphabetically",
+      "parameters": []
+    },
+    {
+      "name": "SortByPriceDesc",
+      "function": "sortByPriceDesc",
+      "parameters": []
+    },
+    {
+      "name": "SortByPriceAsc",
+      "function": "sortByPriceAsc",
+      "parameters": []
+    }
+  ]
+}
