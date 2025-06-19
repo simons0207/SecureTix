@@ -81,4 +81,4 @@ Import private key in hardhat node from terminal for Fake Ethers
 ### Ticket purchese 
 ![](https://github.com/user-attachments/assets/ee3f109d-7eb7-4187-b672-2f1b13eb394b)
 ### NFT
-![](https://github.com/user-attachments/assets/27fd3058-e354-4030-83e6-ad6f748e46a4)
+![]()
