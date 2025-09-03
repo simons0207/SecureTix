@@ -78,7 +78,9 @@ Import private key in hardhat node from terminal for Fake Ethers
 ### Seat arrangement 
 ![](https://github.com/user-attachments/assets/272e60c3-0ea9-4b9f-a2c4-6b43a8391c04)
 
+
 ### Ticket purchese 
 ![](https://github.com/user-attachments/assets/ee3f109d-7eb7-4187-b672-2f1b13eb394b)
 ### NFT
 ![](https://drive.google.com/file/d/1P--kfvczSpkYG-07KM-HODF-QUn6Knu4/view?usp=drivesdk)
+![IMG-20250313-WA0070](https://github.com/user-attachments/assets/c56f72d4-982b-4bf4-bb85-c187fb3e4a41)
